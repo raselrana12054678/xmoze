@@ -1,0 +1,159 @@
+.Trusted-Services {
+    padding: 80px 0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    .trusted-area1 {
+        background-color: #FFFFFF;
+        box-shadow: 0px 4px 80px rgba(15, 26, 84, 0.06);
+        border-radius: 10px;
+        width: 265px;
+        vertical-align: middle;
+        padding: 40px 30px;
+        margin-bottom: 24px;
+        i {
+            color: #FD4C5C;
+            font-size: 32px;
+            opacity: 0.4;
+            padding-bottom: 30px;
+        }
+        h4 {
+            font-size: 20px;
+            line-height: 26px;
+            font-weight: 700;
+            font-family: 'Mulish', sans-serif;
+            color: #0F1A54;
+        }
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+            font-family: 'Mulish',sans-serif;
+            color: #0F1A54;
+            margin-right: 47px;
+            opacity: 0.8;
+        }
+    }
+    .item-1 {
+        display: flex;
+        .trusted-area2 {
+            background-color: #FFFFFF;
+            box-shadow: 0px 4px 80px rgba(15, 26, 84, 0.06);
+            border-radius: 10px;
+            width: 265px;
+            vertical-align: middle;
+            padding: 40px 30px;
+            i {
+                color: #FD4C5C;
+                font-size: 32px;
+                opacity: 0.4;
+                padding-bottom: 30px;
+            }
+            h4 {
+                font-size: 20px;
+                line-height: 26px;
+                font-weight: 700;
+                font-family: 'Mulish', sans-serif;
+                color: #0F1A54;
+            }
+            p {
+                font-size: 16px;
+                line-height: 26px;
+                font-weight: 400;
+                font-family: 'Mulish',sans-serif;
+                color: #0F1A54;
+                margin-right: 47px;
+                opacity: 0.8;
+            }
+        }
+        .items-2 {
+            margin-top: -19%;
+            .trusted-area3 {
+                background-color: #FFFFFF;
+                box-shadow: 0px 4px 80px rgba(15, 26, 84, 0.06);
+                border-radius: 10px;
+                width: 265px;
+                vertical-align: middle;
+                padding: 40px 30px;
+                margin-left: 24px;
+                i {
+                    color: #FD4C5C;
+                    font-size: 32px;
+                    opacity: 0.4;
+                    padding-bottom: 30px;
+                }
+                h4 {
+                    font-size: 20px;
+                    line-height: 26px;
+                    font-weight: 700;
+                    font-family: 'Mulish', sans-serif;
+                    color: #0F1A54;
+                }
+                p {
+                    font-size: 16px;
+                    line-height: 26px;
+                    font-weight: 400;
+                    font-family: 'Mulish',sans-serif;
+                    color: #0F1A54;
+                    margin-right: 47px;
+                    opacity: 0.8;
+                }
+            }
+        }
+    }
+    .best-item {
+        padding-top: 20%;
+        h5 {
+            font-size: 16px;
+            font-weight: 700;
+            line-height: 24px;
+            font-family: 'Mulish',sans-serif;
+            font-style: normal;
+            color: #4A2EB3;
+            margin-left: 10px;
+            padding-bottom: 15px;
+        }
+        h1 {
+            font-family: 'Mulish',sans-serif;
+            font-size: 48px;
+            font-weight: 700;
+            line-height: 58px;
+            font-style: normal;
+            color: #0F1A54;
+            letter-spacing: -0.5px;
+            width: 100%;
+            margin-left: 10px;
+            padding-bottom: 10px;
+
+        }
+        p {
+            font-size: 16px;
+            line-height: 26px;
+            font-weight: 400;
+            font-family: 'Mulish',sans-serif;
+            color: #0F1A54;
+            margin-bottom: 30px; 
+            margin-left: 10px;
+        }
+        .btn {
+            border: none;
+            margin-right: 10px;
+            a {
+                text-decoration: none;
+                text-transform: capitalize;
+                font-size: 16px;
+                font-family: 'Mulish', sans-serif;
+                line-height: 24px;
+                font-weight: 700;
+                color: #ffffff;
+                padding: 13px 33px;
+                background-color: #FD4C5C;
+                border-radius: 3px;
+                &:hover {
+                    background-color: #4A2EB3;
+                }
+            }
+        }
+    }
+}

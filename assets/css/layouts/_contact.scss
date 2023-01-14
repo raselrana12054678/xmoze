@@ -1,0 +1,52 @@
+.contact-area {
+    padding: 70px 0;
+    background: linear-gradient(90deg, #FD4C5C 0.01%, #781BFF 100%);
+    .newsletter {
+        text-align: center;
+        h1 {
+            font-family: 'Mulish',sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+            letter-spacing: -0.5px;
+            color: #FFFFFF;
+            padding-bottom: 25px;
+        }
+        input {
+            width: 42%;
+            padding: 18px 30px;
+            background: #FFFFFF;
+            box-shadow: 0px 10px 40px rgba(255, 176, 158, 0.12);
+            border-radius: 5px;
+            &::placeholder {
+                padding: 18px 30px;
+                font-family: 'Mulish',sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #0F1A54;
+                opacity: 0.5;
+            }
+        }
+        .buton {
+            text-align: right;
+            width: 70%;
+            margin-top: -44px;
+            a {
+                text-align: right;
+                padding: 13px 30px;
+                background: #FD4C5C;
+                border-radius: 5px;
+                text-decoration-line: none;
+                color: #FFF;
+                font-family: 'Mulish',sans-serif;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+    }
+}

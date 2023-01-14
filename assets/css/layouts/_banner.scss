@@ -1,0 +1,109 @@
+.banner-area {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    // height: 150vh;
+    height: 867px;
+    margin-top: -79px;
+    z-index: -1;
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        height: 865px;
+        left: 0;
+        right: 0;
+        background: linear-gradient(90deg, #FD4C5C 0.01%, #781BFF 100%);
+        opacity: 0.6;
+    }
+    .It-solution {
+        position: absolute;
+        vertical-align: middle;
+        padding-top: 217px;
+        h4 {
+            font-size: 20px;
+            line-height: 26px;
+            font-weight: 700;
+            font-family: 'Mulish', sans-serif;
+            font-style: normal;
+            padding-bottom: 20px;
+            color: #FFFFFF;
+        }
+        h1 {
+            font-size: 82px;
+            line-height: 79px;
+            font-weight: 700;
+            font-family: 'Mulish', sans-serif;
+            color: #FFFFFF;
+            font-style: none;
+            margin-right: 442px;
+            letter-spacing: -0.005em;
+            padding-bottom: 20px;
+            padding-right: 13%;
+        }
+        p {
+            font-size: 16px;
+            font-weight: 600;
+            font-family: 'Mulish', sans-serif;
+            line-height: 24px;
+            color: #FFFFFF;
+            margin-right: 686px;
+            letter-spacing: -0.005em;
+            padding-bottom: 30px;
+            padding-right: 13%;
+        }
+        .bttn {
+            display: flex;
+            
+            .btn {
+                border: none;
+                a {
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    font-size: 16px;
+                    font-family: 'Mulish', sans-serif;
+                    line-height: 24px;
+                    font-weight: 700;
+                    color: #ffffff;
+                    padding: 13px 33px;
+                    background-color: #FD4C5C;
+                    border-radius: 3px;    
+                    
+                    &:hover {
+                        background-color: white;
+                        border: none;
+                        color: #4A2EB3;
+                        transition: .7s;
+                        transition-delay: 3ms;
+                    } 
+                }
+            }
+                .icon {
+                    margin-left: 10px;
+                    i {
+                        font-size: 20px;
+                        color: #FD4C5C;
+                        border: 2px solid #fff;
+                        padding: 6px 9px;
+                        border-radius: 20px;
+                        background-color: #FFFFFF;
+                    }
+                    a {
+                        text-decoration: none;
+                        font-size: 20px;
+                        line-height: 26px;
+                        font-weight: 600;
+                        font-style: normal;
+                        font-family: 'HK Grotesk';
+                        color: #fff;
+                        margin-left: 15px;
+                    }
+                    span {
+                        margin-left: 15px;
+                    }
+                }
+        }
+    }
+}

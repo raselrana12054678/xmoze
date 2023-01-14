@@ -1,0 +1,54 @@
+.our-company {
+    background-color: #fbfafc;
+    width: 100%;
+    padding: 100px 0;
+    .our-items {
+        h6 {
+            font-size: 16px;
+            font-weight: 700;
+            font-family: 'Mulish',sans-serif;
+            line-height: 24px;
+            font-style: normal;
+            color: #4A2EB3;
+            padding-bottom: 15px;
+        }
+        h2 {
+            font-family: 'Mulish',sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+            letter-spacing: -0.5px;
+            color: #0F1A54;
+            padding-bottom: 10px;
+        }
+        p {
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #0F1A54;
+            opacity: 0.8;
+            padding-bottom: 50px;
+            margin-right: 75px;
+        }
+        .btn {
+            a {
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FFF;
+                background-color: #FD4C5C;
+                border-radius: 3px;
+                padding: 15px 30px;
+                text-decoration: none;
+                &:hover {
+                    background-color: #4A2EB3;
+                }
+            }
+        }
+    }
+}

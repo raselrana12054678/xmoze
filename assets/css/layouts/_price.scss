@@ -1,0 +1,115 @@
+.price-area {
+     background-color: #fbfafc;
+    padding: 100px 0;
+    .price-item {
+        text-align: center;
+        h6 {
+            font-family: 'Mulish',sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 24px;
+            color: #4A2EB3;
+        }
+        h2 {
+            font-family: 'Mulish',sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 58px;
+            color: #0F1A54;
+        }
+        p {
+            font-family: 'Mulish',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            color: #0F1A54;
+            padding: 0 409px;
+            padding-bottom: 50px;
+        }
+    }
+    .price {
+        padding: 45px 0;
+        background: #FFFFFF;
+        box-shadow: 0px 4px 80px rgba(15, 26, 84, 0.06);
+        border-radius: 10px;
+        h4 {
+            font-family: 'Mulish',sans-serif;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 26px;
+            text-align: center;
+            padding-bottom: 26px;
+        }
+        h1 {
+            font-family: 'Mulish',sans-serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 48px;
+            line-height: 26px;
+            color: #0F1A54;
+            text-align: center;
+            span {
+                font-size: 20px;
+            }
+        }
+        h6 {
+            font-family: 'Mulish',sans-serif;
+            font-style: normal;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 26px;
+            color: #0F1A54;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        hr {
+            width: 284px;
+            margin: 0 auto;
+            color: #2B59FF;
+            opacity: 0.1;
+            padding: 15px 0;
+        }
+        ul {
+            padding-bottom: 24px;
+            li {
+                list-style: none;
+                padding-bottom: 10px;
+                margin-left: 68px;
+                font-family: 'Mulish',sans-serif;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 16px;
+                line-height: 24px;
+                color: #0F1A54;
+                opacity: 0.8;
+                i {
+                    margin-right: 10px;
+                }
+            }
+        }
+        .bttn {
+            text-align: center;
+            border: none;
+            a {
+                font-family: 'Mulish';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 24px;
+                color: #FD4C5C;
+                border: 1px solid #FD4C5C;
+                border-radius: 4px;
+                padding: 10px 30px;
+                text-decoration: none;
+                &:hover {
+                    background-color: #FD4C5C;
+                    color: #FFF;
+                }
+            }
+        }
+    }
+}
